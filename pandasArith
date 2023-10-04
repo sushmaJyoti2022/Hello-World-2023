@@ -1,0 +1,11 @@
+import pandas as pd
+s1 = pd.Series([2, 4, 6, 8, 10])
+s2 = pd.Series([1, 3, 5, 7, 9])
+summ = s1 + s2
+print("Add two Series:\n",summ)
+sub = s1 - s2
+print("Subtract two Series:",sub)
+multi = s1 * s2
+print("Multiply two Series:",multi)
+div = s1 / s2
+print("Divide Series1 by Series2:",div)
